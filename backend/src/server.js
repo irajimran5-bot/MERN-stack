@@ -48,7 +48,6 @@ if(process.env.NODE_ENV==="production"){
         res.sendFile(path.join(_dirname,"../frontend","dist","index.html"))
     });
 }
-export default app;
 
 
 if (process.env.NODE_ENV !== "production"){
